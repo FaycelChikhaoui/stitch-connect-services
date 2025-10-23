@@ -4,10 +4,13 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/stitch-connect-e2e"
+      "path": "./apps/stitch-connect"
     },
     {
-      "path": "./apps/stitch-connect"
+      "path": "./libs/core"
+    },
+    {
+      "path": "./libs/infra/stitch-connect-datasource"
     }
   ]
 }
