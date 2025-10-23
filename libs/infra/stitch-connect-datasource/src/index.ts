@@ -1,1 +1,2 @@
-export * from './lib/stitch-connect-datasource.js';
+export * from './dbClient';
+export * from './dataReader';
