@@ -26,7 +26,7 @@
       "@stitch-connect-datasource": [
         "libs/infra/stitch-connect-datasource/src/index.ts"
       ]
-    },
-    "exclude": ["node_modules", "tmp"]
-  }
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
 }
