@@ -2,7 +2,16 @@
   "name": "@stitch-connect-services/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test",
+    "db-generate": "npm run prisma-generate -w dexper-database",
+    "db-migrate-dev": "npm run prisma-migrate-dev -w dexper-database",
+    "db-pull": "npm run prisma-pull -w dexper-database",
+    "db-push": "npm run prisma-push -w dexper-database",
+    "db-studio": "npm run prisma-studio -w dexper-database"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^11.0.0",
