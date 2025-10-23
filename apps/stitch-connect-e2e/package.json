@@ -1,0 +1,26 @@
+{
+  "name": "@stitch-connect-services/stitch-connect-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@stitch-connect-services/stitch-connect"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "apps/stitch-connect-e2e/jest.config.ts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "@stitch-connect-services/stitch-connect:build",
+          "@stitch-connect-services/stitch-connect:serve"
+        ]
+      }
+    }
+  }
+}
