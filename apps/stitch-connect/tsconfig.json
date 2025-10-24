@@ -8,6 +8,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "../../libs/core"
+    },
+    {
+      "path": "../../libs/infra/stitch-connect-datasource"
     }
   ]
 }
